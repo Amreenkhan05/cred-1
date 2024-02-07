@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* border: 1px solid red; */
+}
+/* .......navbar...... */
+.navbar{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar p{
+    color: rgb(182, 178, 178);
+    /* margin-right: 190px; */
+    margin-top: 40px;
+    /* border: 1px solid white; */
+}
+.navbar i{
+    display: none;
+}
+span{
+    display: flex;
+}
+.navbar img{
+    width: 50px;
+    margin-inline: 200px;
+}
+
+/* ........rewards........... */
+.container-2{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 200px;
+    /* border: 2px solid white; */
+}
+.rewards{
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rewards h1{
+    color: rgb(207, 206, 206);
+    font-size: 110px;
+    
+}
+span h2{
+    color: rgb(207, 206, 206);
+    font-size: 32px;
+    margin-top: 35px;
+}
+.rewards button{
+    width: 300px;
+    height: 70px;
+    border-radius: 200px;
+    border: none;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* ........5images................. */
+
+.container-4{
+    width: 100%;
+    height: 130vh;
+    /* border: 3px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: black;
+}
+
+.size{
+    
+    position: absolute;
+}
+
+#deal{
+    right: 10%;
+    width: 370px;
+    bottom: 0;
+}
+
+#home{
+    right: 22%;
+    z-index: 1;
+    width: 400px;
+    bottom: 0;
+    
+}
+
+#john{
+    right: 35%;
+    z-index: 2;
+    bottom: 0;
+    width: 420px;
+}
+#pay{
+    right: 50%;
+    width: 400px;
+    bottom: 0;
+}
+#win{
+    right: 65%;
+    width: 370px;
+    bottom: 0;
+}
+/* 
+.container-3{
+    width: 100%;
+    height:140vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(243, 0, 0);
+    padding-top: 100px;
+    position: relative; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-left: 200px; */
+/* } */
+
+
+.size {
+    /* width: 270px; */
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+/* #win{
+    position: absolute;
+    left: 10%;
+    width: 350px;
+    bottom: 5%;
+} */
+
+/* #deal{
+    position: absolute;
+    width: 350px;
+    right: 11%;
+    bottom: 5%;
+} */
+
+/* #pay{
+    position: absolute;
+    left: 20%;
+    width: 380px;
+    bottom: 5%;
+} */
+
+/* #john{
+    position: absolute;
+    left: 34%;
+    z-index: 2;
+    width:400px;
+    bottom: 5%;
+} */
+/* 
+#home{
+    position: absolute;
+    bottom: 5%;
+    width: 380px;
+    left: 50%;
+    z-index: 1;
+} */
+/* .......feel spcl................ */
+.container-5{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/deserve-more-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+/* .feel{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+} */
+span h1{
+    font-size: 100px;
+    color: white;
+    /* padding-inline: 120px; */
+    padding-top: 150px;
+    margin-left: 110px;   
+}
+span h3{
+    font-size: 30px;
+    color: white;
+    padding-top: 8px;
+    /* padding-inline: 120px; */
+    margin-left: 120px;
+}
+span p{
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+    padding-inline: 120px;
+    margin-top: 4px;
+}
+button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 200px;
+    border: none;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+/* .........brand pg............... */
+.brand{
+    width: 100%;
+    height: 40vh;
+    
+}
+.brand h3{
+    font-size: 30px;
+    padding-left: 230px;
+    padding-top: 4%;
+}
+.brand img{
+    width: 90%;
+    padding-left: 17%;
+    padding-top: 3%;
+}
+/* ........money.................. */
+.container-6{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/money-matters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ..........go....................... */
+.container-7{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(33, 36, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mob{
+    width: 49%;
+    height: 80vh;
+    border: 9px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-top: 140px;
+    background-image: url(./img/neopop-fold1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.go-img{
+    width: 50%;
+    height: 100vh;  
+}
+.text h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+.text h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 90px; 
+
+}
+/* ...............begin......................... */
+.container-8{
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(33, 36, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mob-1{
+    width: 49%;
+    height: 80vh;
+    border: 9px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-top: 140px;
+    background-image: url(./img/neopop-fold2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.go-img{
+    width: 50%;
+    height: 100vh;  
+}
+.text h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+.text h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 140px; 
+
+}
+/* .........taste....................... */
+
+.container-9{
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(33, 36, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mob-2{
+    width: 49%;
+    height: 85vh;
+    border: 9px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-top: 140px;
+    background-image: url(./img/neopop-fold3.webp);
+    background-size: cover;
+    background-position: center;
+}
+.go-img{
+    width: 50%;
+    height: 100vh;  
+}
+.text h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+
+
+}
+.text h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 140px; 
+
+}
+/* ......pockets.................... */
+
+
+.container-10{
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(33, 36, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mob-3{
+    width: 49%;
+    height: 85vh;
+    border: 9px solid rgb(48, 48, 48);
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-top: 140px;
+    background-image: url(./img/neopop-fold4.webp);
+    background-size: cover;
+    background-position: center;
+}
+.go-img{
+    width: 50%;
+    height: 100vh;  
+}
+.text h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+
+
+}
+.text h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 140px; 
+
+}
+/* ..........home................. */
+.container-11{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.home{
+    width: 100%;
+    height: 90vh; 
+   
+}
+.home img{
+    width: 100%;
+    height: 90vh;
+    margin-top: 70px;
+}
+/* ..........dog.................... */
+.container-12{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/security-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ..........story........... */
+.container-13{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/trust-bg.jpg);
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    /* border: 1px solid red; */
+}
+.right{
+    width: 50%;
+    height: auto;
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ........rating.............. */
+.container-14{
+    width: 100%;
+    height: 130vh;
+    background-color: black; 
+    border: 1px solid white;   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.container-14 p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-14-a{
+    width: 100%;
+    height: 100vh;
+    background-color: black; 
+    border: 1px solid white;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app-left{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-left img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-app{
+    width: 280px;
+    height: 50px;
+    margin-right: 12%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 20px; */
+}
+
+.btn-app i {
+    font-size: 35px;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app h4{
+    color: white;
+    font-size: 9rem;
+    margin-right: 20px;
+}
+
+.app h5{
+    color: white;
+    font-size: 35px;
+}
+
+.play-right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.play-right img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ...........About cred................... */
+
+.container-15{
+    width: 100%;
+    height: 300vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abt-cred{
+    width: 80%;
+    height: 300vh;
+    background-color: rgb(29, 28, 28);
+    
+
+}
+.abt-cred h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+.abt-cred p{
+    margin-top: 30px;
+    font-weight: 500;
+    color: rgb(175, 173, 173);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* ........last page................. */
+.container-16{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(44, 41, 41);
+}
+.l-footer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 220px;
+}
+.foot-left{
+    width: 50%;
+    height: 100vh;
+}
+.foot-right{
+    width: 50%;
+    height: 100vh;
+}
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#encrypts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot-left img{
+    width: 170px;
+    height: 60px;   
+    margin-top: 50px;
+}
+#iso{
+    width: 420px;
+}
+#encrypts h4{
+    color: white;
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+#members{
+    padding-top: 20px;
+    color: rgb(170, 163, 163);
+}
+#copy{
+    color: rgb(114, 113, 113);
+    padding-left: 140px;
+    padding-top: 250px
+
+}
+
+#list ul{
+    list-style: none;
+    color: rgb(170, 163, 163);
+    line-height: 40px;
+}
+#bold{
+    font-weight: 700;
+    color: white;
+}
+.policy{
+    color: rgb(170, 163, 163);
+    font-size: 20px;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
